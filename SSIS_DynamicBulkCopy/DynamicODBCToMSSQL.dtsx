@@ -11,8 +11,8 @@
   DTS:LocaleID="4105"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="81"
-  DTS:VersionGUID="{3EE4D8F1-94CD-46DA-9D03-BD998ADB5D34}">
+  DTS:VersionBuild="82"
+  DTS:VersionGUID="{EC5E8554-C53A-4930-8E80-5FDEE6A98281}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -31,7 +31,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA9Ur0Fjrw+kWyP7UZf6OCrAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABmX+cvGtiPXqKxW7plUBmkCtWvBV3HRpycNDs/QdpFZQAAAAAOgAAAAAIAACAAAADcaoPQC05xo567Unip3mhyT8wHx/4YItSp6OBiPUNroiAAAAD/W1s27Cxj9UrvAdI60DQc64SMQ61RFFfLl1p2tp5rG0AAAADIbiL3a02npjIof3SDj+srzqmjF5CPmkkxB3Q0g+BNg6FwfmBg9S1reI7K7iwOG3em2cKr+xY/vwQjapQfN+mM</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA9Ur0Fjrw+kWyP7UZf6OCrAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADtEzfLvWreMIowfHThAtjthgnGHbawrQvGcWeg9k88QgAAAAAOgAAAAAIAACAAAAAzW1W3RHaY11Rq5RBf5DRicpgDgyjoEfV0PsK/wbhiCSAAAADQLDTaLkvlQ4RzolCnYgcxaw2AHgdTQ2O5FQ5p+HQk/kAAAACcBQvTA+1l9i5364f3sS2fbV5EKXPuWdBXefzNe8Csp7qHCQ2xmdI+lHNppFWU4hhJsFWcQjbpiVUtFS6qbj2X</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -50,7 +50,7 @@
           <DTS:Password
             DTS:Name="pwd"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA9Ur0Fjrw+kWyP7UZf6OCrAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADhjP+C4V98221pLtvZVWWNLox6SVnWWGNB60DZ6RneowAAAAAOgAAAAAIAACAAAADxD3v3NhX+Z4zNK7fWLIbEINhnVpo1wvdNCtXTDq0wESAAAAD9o3+mpYA3HbkpgMLFaAt5bywPPouAz6lqknAcTolaf0AAAACOVdQszs7Ylyy+3YUhvxxEcADtyL+lTH9sjty75dldcJCdEr2WHEB8yWpPNNAbuw7C516m427RKcmNi6lmr1W1</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA9Ur0Fjrw+kWyP7UZf6OCrAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABgXSNisTF9vp3VnaJVV4to4Y8a96BBv7T8RQQy/fgxQgAAAAAOgAAAAAIAACAAAABTGspad2+MyAmAsZqxmcXG2docF/DkOl9oKBpyt13zXSAAAADMeAASNSrOlnjocZ0ohoWtYQOI+tSHugnF65DN/WpDUUAAAADRqTgv5KFYC0QIvFB7Fzq/4hgxx3L/FqklITk0tv15y7o/WpJ+xngTWx56z+F12Qd5Os5ESXlVklvSqZvLJ06M</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -59,6 +59,7 @@
     <DTS:PackageParameter
       DTS:CreationName=""
       DTS:DataType="8"
+      DTS:Description="An ADO SQL Client connection string."
       DTS:DTSID="{DEBDD676-9F31-477C-8398-1D75885767B7}"
       DTS:ObjectName="DestinationADOSQLClientConnection_ConnectionString"
       DTS:Required="True">
@@ -69,6 +70,7 @@
     <DTS:PackageParameter
       DTS:CreationName=""
       DTS:DataType="8"
+      DTS:Description="Password for the noted connection manager."
       DTS:DTSID="{9D58E142-BF2A-4854-A603-78E15942482C}"
       DTS:ObjectName="DestinationADOSQLClientConnection_Password"
       DTS:Sensitive="True">
@@ -77,12 +79,13 @@
         <DTS:Property
           DTS:DataType="8"
           DTS:Name="ParameterValue"
-          Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA9Ur0Fjrw+kWyP7UZf6OCrAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADM2nsYk/Xr2J2raIKfrDBRtjnzgXLcOSbeQQUAX8xszQAAAAAOgAAAAAIAACAAAADkW7LgqSfU2W6n3q7TC2B4QCmhpWqLO+KRH2jRaIi6IiAAAAABc9k5fBzt/DIjINYTiX5oT1nAHlWwj2jw6/27LBFAGUAAAABl4B82iptPe7geb9RDtwwidaCludhkEuloPtSzJ60sM/hwWrUvsT35lgMvHbm3g1CRM+YyIj7uOafWHtgEZXb+</DTS:Property>
+          Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA9Ur0Fjrw+kWyP7UZf6OCrAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADpQujKJ9fyNj3AWPmK3aWQj8M+1X1b4zwxsR7BG0/AcAAAAAAOgAAAAAIAACAAAABF97o7+pc9S+NaPRl2p22n6UabPi8KpJmZxzFvHsSWWyAAAABaZ+EABlKC5ETRL+4/T6vniXnvUgVGzn9NhmI73Oq5F0AAAADC9jv/oxx9pvw3UoSdGmfgidJZPNL2w2P8lm9ZOpA7dT5dwiwiX56QMU1nAlgSunvQacnoYrEfxIzOwAqiB9jm</DTS:Property>
       </DTS:Property>
     </DTS:PackageParameter>
     <DTS:PackageParameter
       DTS:CreationName=""
       DTS:DataType="8"
+      DTS:Description="Note that this parameter's connection manager, possibly depending on the ODBC driver being used, will require the the connection string to contain a blank 'pwd=' attribute in order to work.  Otherwise, supply an ADO.net/ODBC driver connection string."
       DTS:DTSID="{D34D6025-2DCD-42A5-9612-012385FD57D9}"
       DTS:ObjectName="SourceADOODBCConnection_ConnectionString"
       DTS:Required="True">
@@ -93,6 +96,7 @@
     <DTS:PackageParameter
       DTS:CreationName=""
       DTS:DataType="8"
+      DTS:Description="Password for the noted connection manager."
       DTS:DTSID="{ED0746FE-3849-4697-B2FB-385CB1C26A1B}"
       DTS:ObjectName="SourceADOODBCConnection_Password"
       DTS:Sensitive="True">
@@ -101,7 +105,7 @@
         <DTS:Property
           DTS:DataType="8"
           DTS:Name="ParameterValue"
-          Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA9Ur0Fjrw+kWyP7UZf6OCrAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADgMOnDxQN4NGrnTIobnvwkwLXJAL/OvSLlXvI8BlPC7gAAAAAOgAAAAAIAACAAAADfYGlIrLPLIXIRzP7sr1IZG5TJWzQ7o8A3F8zC6tcLFCAAAACpNyZQc18xM1c4DIccZ4P6NdLRkuTvkECLBihwlI9hx0AAAABqxfkrtI5HQZ22kFxMls+xbn/vQmg5chCjHDKe0CarOiJF2ya0EQITw5sPzlVcxmY9ctZZvGTWM/YmTBGLlxDw</DTS:Property>
+          Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA9Ur0Fjrw+kWyP7UZf6OCrAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACw8/OAOQLZQxkSa/pZ6m9vP76hIaeMAxsVIONMQgQPUwAAAAAOgAAAAAIAACAAAADdQUf1NU0YCYK8TFohYRLOScjsEQT6sibQAh0VtWaO8CAAAAAiwLwlUsDMblNVr2ZugT8YebC2cMfUhL6xrUfa1CtJzkAAAAAUw5d8Eu4+F6DfN28ACsJ3uj/uXzxv89TMZdVHqtDFBktuswRLECwxKUz+08wZ074clAKVY/WVdb3c2tZ9ak0y</DTS:Property>
       </DTS:Property>
     </DTS:PackageParameter>
   </DTS:PackageParameters>
@@ -438,35 +442,34 @@
   </resheader>
 </root>]]></ProjectItem>
                   <ProjectItem
-                    Name="Properties\AssemblyInfo.cs"
-                    Encoding="UTF8"><![CDATA[using System.Reflection;
-using System.Runtime.CompilerServices;
+                    Name="Properties\Settings.Designer.cs"
+                    Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
+// <auto-generated>
+//     This code was generated by a tool.
+//
+//     Changes to this file may cause incorrect behavior and will be lost if
+//     the code is regenerated.
+// </auto-generated>
+//------------------------------------------------------------------------------
 
-//
-// General Information about an assembly is controlled through the following 
-// set of attributes. Change these attribute values to modify the information
-// associated with an assembly.
-//
-[assembly: AssemblyTitle("ST_ef9c03d113bf47cc8675a0bfdcbe0b17")]
-[assembly: AssemblyDescription("")]
-[assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ST_ef9c03d113bf47cc8675a0bfdcbe0b17")]
-[assembly: AssemblyCopyright("Copyright @  2020")]
-[assembly: AssemblyTrademark("")]
-[assembly: AssemblyCulture("")]
-//
-// Version information for an assembly consists of the following four values:
-//
-//      Major Version
-//      Minor Version 
-//      Build Number
-//      Revision
-//
-// You can specify all the values or you can default the Revision and Build Numbers 
-// by using the '*' as shown below:
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_ef9c03d113bf47cc8675a0bfdcbe0b17.Properties.Settings.get_Default():ST_ef9c03d113bf47cc8675a0bfdcbe0b17.Properties.Sett" +
+    "ings")]
 
-[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
+namespace ST_ef9c03d113bf47cc8675a0bfdcbe0b17.Properties {
+    
+    
+    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
+        
+        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
+        private static Settings defaultInstance = new Settings();
+        
+        public static Settings Default {
+            get {
+                return defaultInstance;
+            }
+        }
+    }
+}]]></ProjectItem>
                   <ProjectItem
                     Name="ScriptMain.cs"
                     Encoding="UTF8"><![CDATA[#region Namespaces
@@ -574,34 +577,35 @@ namespace ST_b963b4dd93c54fbca6abf744e3be0dbf
 	</msb:ItemGroup>
 </c:Project>]]></ProjectItem>
                   <ProjectItem
-                    Name="Properties\Settings.Designer.cs"
-                    Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
-// <auto-generated>
-//     This code was generated by a tool.
+                    Name="Properties\AssemblyInfo.cs"
+                    Encoding="UTF8"><![CDATA[using System.Reflection;
+using System.Runtime.CompilerServices;
+
 //
-//     Changes to this file may cause incorrect behavior and will be lost if
-//     the code is regenerated.
-// </auto-generated>
-//------------------------------------------------------------------------------
+// General Information about an assembly is controlled through the following 
+// set of attributes. Change these attribute values to modify the information
+// associated with an assembly.
+//
+[assembly: AssemblyTitle("ST_ef9c03d113bf47cc8675a0bfdcbe0b17")]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("ST_ef9c03d113bf47cc8675a0bfdcbe0b17")]
+[assembly: AssemblyCopyright("Copyright @  2020")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+//
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version 
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Revision and Build Numbers 
+// by using the '*' as shown below:
 
-[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_ef9c03d113bf47cc8675a0bfdcbe0b17.Properties.Settings.get_Default():ST_ef9c03d113bf47cc8675a0bfdcbe0b17.Properties.Sett" +
-    "ings")]
-
-namespace ST_ef9c03d113bf47cc8675a0bfdcbe0b17.Properties {
-    
-    
-    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
-        
-        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-        private static Settings defaultInstance = new Settings();
-        
-        public static Settings Default {
-            get {
-                return defaultInstance;
-            }
-        }
-    }
-}]]></ProjectItem>
+[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
                   <ProjectItem
                     Name="Properties\Settings.settings"
                     Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>

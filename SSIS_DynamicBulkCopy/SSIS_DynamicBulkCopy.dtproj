@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">MSI</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA9Ur0Fjrw+kWyP7UZf6OCrAAAAAACAAAAAAAQZgAAAAEAACAAAACb9Me5OQVb7VAuT4PTz3z2M2i4p8VOYf6bryY0PclhlwAAAAAOgAAAAAIAACAAAAA6QrBDEHHP2JagprjCB+Z+sQ284RklykyyqYMYMpNdTJAAAACSij3A+dn5gYrY23uMh+2rki+jFPYvn1B8wrfIK8nIdsgQxtGvZEd6yEht7NihfTToKNkfSeG3TlWYrmnWFF5wDoWmQGNXkREjh6dmz6THqq5T8tk0FU941qLGOhH30NarjS2az4A2sm/vE+HuziVgZWiw83ecP2ceWKTTEQMXh5Qg7FQjWNHJKiJjaDBVWZ9AAAAAymDcaXDQS7Ph9gJ/wke564m6dz1Wdr5vLaEF4ZO3zzwGfCh/1U5FqvE8u1HlHm26NllpYc4OGsdj8lDytl2FsQ==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA9Ur0Fjrw+kWyP7UZf6OCrAAAAAACAAAAAAAQZgAAAAEAACAAAAD/WViKYYaK+5lgYCAJHtrQ7cHvFRl+Ff0Mr9Ir50UdGgAAAAAOgAAAAAIAACAAAAA9WzCni6wk21qL9beK8MkyCk19s31YTOGXccme5UvpeJAAAADqIHMIodBn5LyVwyqVe1326Rd2kKUsehNRuRU4WotbMkRnstiiriwaHleXkCrb/W95P5gVujtZz4aP6rB3VU04MPXhsPBqkMqNFJxFLkOhSxo7LdgstL65FdfBSWXTRS9XgNhV+gYzlFXsHkQQ7cN4C9qNvmhowKt7M4FQ/O5NLXyFg1OoyyqFdqhYAOzWtmdAAAAATd6x7Z7HC1QAy3Llsqz+3A7Ftz6K/a6HeUPtkPv5b+X38FqPtAA6ewKvKm5q/OZutrRfdbYxZVFitlO4EN/aTA==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -42,10 +42,10 @@
                 <SSIS:Property SSIS:Name="Name">Package</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">81</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">82</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{3EE4D8F1-94CD-46DA-9D03-BD998ADB5D34}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{EC5E8554-C53A-4930-8E80-5FDEE6A98281}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -57,8 +57,7 @@
                     <SSIS:Property SSIS:Name="ID">{DEBDD676-9F31-477C-8398-1D75885767B7}</SSIS:Property>
                     <SSIS:Property SSIS:Name="CreationName">
                     </SSIS:Property>
-                    <SSIS:Property SSIS:Name="Description">
-                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="Description">An ADO SQL Client connection string.</SSIS:Property>
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">1</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
@@ -71,12 +70,11 @@
                     <SSIS:Property SSIS:Name="ID">{9D58E142-BF2A-4854-A603-78E15942482C}</SSIS:Property>
                     <SSIS:Property SSIS:Name="CreationName">
                     </SSIS:Property>
-                    <SSIS:Property SSIS:Name="Description">
-                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="Description">Password for the noted connection manager.</SSIS:Property>
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">1</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA9Ur0Fjrw+kWyP7UZf6OCrAAAAAACAAAAAAAQZgAAAAEAACAAAADIdNH0XgedsndpGScrJhsvUhW/MKy4JXeALn9EkHoGfAAAAAAOgAAAAAIAACAAAABZ2H6nLp/3FcKXilmm1fbUGFaV8loPTCgGAwuQcBAmw5AAAACB/i4YAq/FkiP6Q/Ybada9E7vMcVcYR+vIb68h+ji2eescIuvnnHdQHHHCdVt4m6PhBVOJrAcMEAnVyoAqhOD2USjvl1cS4Ca0kxZG66Z2WIU8YG3GXTPvG7J3Xuym0sY9Vb/ofPK92/sTUhGRZcT0GCPkjCJskDKY4ujuHkVZv2Q5P9YxFT7Jt/Pp2wOcXStAAAAA+CZhTeHrNCPFnN6b2CWVDD5rKIh0F0uvGu+pB82evwSNNA4PKgk4qFEFAHR4EWdHkPFViSdfwY6+CwkJl+CjcQ==</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA9Ur0Fjrw+kWyP7UZf6OCrAAAAAACAAAAAAAQZgAAAAEAACAAAAAMbusgJZ1bp4YsvuP4IsB9KfdK2iOx5WRQAZffSZ4XbgAAAAAOgAAAAAIAACAAAAAYiqvhYrMm5oXOeEG/ixo27qd+5ZYg8hwxuHuIPul58JAAAABXASX6R+M7fyvtEYDzcLbJCunrpGuYcx7gh853LV+Z7pbdXtta/atTXfPeoLXa+uRSHNW8m0huvvOZgQAaXxEZWteQfeYo3SOeguV2eUnRtvdMKH7INbbN6NhuFp4zbHb1jW4R38LWnOMt6txOjIPFc/ITM4/JSrIuawiNl2iOWR0ggb3T/AcVMEZv9cyC1IFAAAAA2A7AZwYEXZosQWyXwC3ba09uiHG45Fw9DxmaRHq0tYu518+NWAB+nt63f5EFrGHg1Bh4jQYtZX0qQ7rK4LxLcQ==</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -85,8 +83,7 @@
                     <SSIS:Property SSIS:Name="ID">{D34D6025-2DCD-42A5-9612-012385FD57D9}</SSIS:Property>
                     <SSIS:Property SSIS:Name="CreationName">
                     </SSIS:Property>
-                    <SSIS:Property SSIS:Name="Description">
-                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="Description">Note that this parameter's connection manager, possibly depending on the ODBC driver being used, will require the the connection string to contain a blank 'pwd=' attribute in order to work.  Otherwise, supply an ADO.net/ODBC driver connection string.</SSIS:Property>
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">1</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
@@ -99,12 +96,11 @@
                     <SSIS:Property SSIS:Name="ID">{ED0746FE-3849-4697-B2FB-385CB1C26A1B}</SSIS:Property>
                     <SSIS:Property SSIS:Name="CreationName">
                     </SSIS:Property>
-                    <SSIS:Property SSIS:Name="Description">
-                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="Description">Password for the noted connection manager.</SSIS:Property>
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">1</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA9Ur0Fjrw+kWyP7UZf6OCrAAAAAACAAAAAAAQZgAAAAEAACAAAAClbDy9rnDsqifmRB1w0madue3jqzwOLVqxKN+nR5Zc5wAAAAAOgAAAAAIAACAAAABQ93P7v8HmNQCarjXUgWyG6wauJmzsH9HLB91hh5/ssZAAAABGNPEEckOxpDgYbkrwJfWB3oMFAUIjRZphfXxTX2IVyZTT9OXFT1LhInmCMmZsXaQPkxemNaQ/a4GxNdzS5PAZuP7omnJ0XIvZa2ark1+jKjXzAduiJSfXwVol+w8/1QC+I6BRNER8UyCnJ9O/0TjqTk2yCrA5BJiDrYzw7OqPS9ATbfDoLec8dVxQiYQeJh5AAAAAauLjkXZYbC8fUU5VQHvFi/SJrS+qmoJv+y8tbfIfHBeOYUhbXu6oW57tI3iUzJw4zB92kMrO6cNR7GPXE6yDVg==</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA9Ur0Fjrw+kWyP7UZf6OCrAAAAAACAAAAAAAQZgAAAAEAACAAAADTG0hzGYOYks1os9P4GerYSOY3tE/tfaT/rpjRFOv/DgAAAAAOgAAAAAIAACAAAACs96GahT2Ir7cqQMffL2IjDyQdErePr4qmiprxScL6HpAAAABf3MHK39BVPkv7zD+hvlGXLRu3IaUMOFfy0+Gt5He9ufa4RGEYTMdas+E1tbPYaR6RUNi7FWDSUtleZx5MO7TYQL5Dr5oJ/HHvFQGR8gWFZV+ADQHBzcXgW52kRc6TIAPSOD3PAhLs6iYy0jfPvfkRTe3LSBDSRjJ871BfwDTw6v+uyFHDp3JjUj028/Nvg51AAAAASLww7ymdXAz1Sge87BU8SDOsg+yjquL/HKuXHeRIFC0TrbxLFYq/HqzmLKWNdlCBIxwDLW8KT6P8e1y65vg3kQ==</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
